@@ -1891,6 +1891,10 @@
   display: flex;
 }
 
+.code-embed-2 {
+  color: #d12b2b;
+}
+
 @media screen and (max-width: 991px) {
   .grid {
     grid-template-columns: 1fr 1fr;
