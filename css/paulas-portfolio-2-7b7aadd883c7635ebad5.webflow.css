@@ -190,7 +190,7 @@
   color: var(--dark);
   letter-spacing: 1.5px;
   font-family: Ibmplexsans Variablefont Wdth Wght, Arial, sans-serif;
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 
 .scroll-wrapper {
@@ -700,7 +700,7 @@
 
 .work-project-image.foodmood {
   background-image: url('../images/foodmood_cover.jpg');
-  background-position: 50%;
+  background-position: 50% 0;
 }
 
 .work-project-image.wein {
@@ -925,7 +925,7 @@
 
 .case-image.foodmood {
   background-image: url('../images/foodmood_cover.jpg');
-  background-position: 50%;
+  background-position: 50% 0;
 }
 
 .case-image.radiogalaxy {
@@ -1913,7 +1913,7 @@
     line-height: 6rem;
   }
 
-  .div-block-2 {
+  .welcome, .div-block-2 {
     display: none;
   }
 
@@ -2281,7 +2281,7 @@
     padding-top: 0;
   }
 
-  .nav-wrapper {
+  .nav-wrapper, .welcome-text {
     display: none;
   }
 
@@ -3755,7 +3755,7 @@
 
   #w-node-_1657a944-67da-f1f8-e0b2-488fe77de46c-1f8386fa {
     grid-column: 1 / 3;
-    justify-self: start;
+    place-self: end start;
   }
 
   #w-node-ae52e3f2-c35e-bc17-262f-9da42a712f41-1f8386fa, #w-node-cf6df1e2-4f03-e389-0221-9ebb6d773850-1f8386fa, #w-node-bd2919e1-e14a-1cb5-73df-94944906003b-1f8386fa {
